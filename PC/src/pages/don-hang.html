@@ -1,0 +1,643 @@
+<!-- build:title -->CMS Template
+<!-- /build:title -->
+
+<!-- build:content -->
+<section class="main-container">
+    <div class="row-main container">
+        <div class="flex fillter-donhang">
+
+            <span class="mr-2 mb10">Hình thức</span>
+            <label class="radio mr-3">
+                <input type="radio" name="optradio" checked="">
+                <span class="checkmark"></span>
+                Backend
+            </label>
+            <label class="radio mr-3">
+                    <input type="radio" name="optradio">
+                    <span class="checkmark"></span>
+                    B2b
+            </label>
+            <label class="radio mr-3">
+                    <input type="radio" name="optradio">
+                    <span class="checkmark"></span>
+                    B2c
+            </label>
+
+            <div class="form-group mb10 mr-2">
+                <input type="text" class="form-control" id="" placeholder="Mã đơn" style="width: 246px;">
+            </div>
+            <div class="form-group mb10 mr-2">
+                <div class="datepicker-wrap" style="width:100%">
+                    <input class="form-control datepicker-input " type="text" name="birthday" placeholder="Ngày bắt đầu">
+                </div>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <div class="datepicker-wrap" style="width:100%">
+                    <input class="form-control datepicker-input " type="text" name="birthday" placeholder="Ngày kết thúc">
+                </div>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <input type="text" class="form-control" id="" placeholder="Nhãn đơn" style="width: 150px;">
+            </div>
+            <div class="multiple-select form-group mb10 mr-2">
+                <div class="select-btn">
+                    <span class="btn-text">Tất cả nguồn</span>
+                    <span class="arrow-dwn">
+                        <i class="fa fa-angle-down"></i>
+                    </span>
+                </div>
+
+                <ul class="list-items">
+                    <li class="item">
+                        <span class="checkbox">
+                            <i class="fa fa-check"></i>
+                        </span>
+                        <span class="item-text">Đại lý</span>
+                    </li>
+                    <li class="item">
+                        <span class="checkbox">
+                            <i class="fa fa-check"></i>
+                        </span>
+                        <span class="item-text">Cộng tác viên</span>
+                    </li>
+                    <li class="item">
+                        <span class="checkbox">
+                            <i class="fa fa-check"></i>
+                        </span>
+                        <span class="item-text">Doanh nghiệp</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <select class="select2" name="" style="width: 180px;">
+                    <option value="">Tất cả dịch vụ</option>
+                    <option value="">Đại lý</option>
+                    <option value="">Cộng tác viên</option>
+                    <option value="">Mice/Corp/Doanh nghiệp</option>
+                </select>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <select class="select2" name="" style="width: 180px;">
+                    <option value="">Tất cả trạng thái</option>
+                    <option value="">Đại lý</option>
+                    <option value="">Cộng tác viên</option>
+                    <option value="">Mice/Corp/Doanh nghiệp</option>
+                </select>
+            </div>
+            <div class="form-group mb10 mr-2" style="width: 180px;">
+                <div class="datepicker-wrap add-lbl" style="width:100%">
+                    <span class="lbl">Ngày tạo</span>
+                    <input class="form-control datepicker-input " type="text" name="birthday">
+                </div>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <input type="text" class="form-control" id="" placeholder="Người tạo">
+            </div>
+            <div class="form-group mb10 mr-2">
+                <select class="select2" name="" style="width: 180px;">
+                    <option value="">Tất cả bộ phận chính</option>
+                    <option value="">Đại lý</option>
+                    <option value="">Cộng tác viên</option>
+                    <option value="">Mice/Corp/Doanh nghiệp</option>
+                </select>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <input type="text" class="form-control" id="" placeholder="Nhân viên chính">
+            </div>
+            <div class="form-group mb10 mr-2">
+                <select class="select2" name="" style="width: 170px;">
+                    <option value="">Tất cả bộ phận phụ</option>
+                    <option value="">Đại lý</option>
+                    <option value="">Cộng tác viên</option>
+                    <option value="">Mice/Corp/Doanh nghiệp</option>
+                </select>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <div class="input-search-tag">
+                    <div class="list-select-tag">
+                        <input type="text" class="form-control" id="" placeholder="Tìm kiếm theo tên">
+                    </div>
+                    <div class="suggest-list">
+                        <ul class="list">
+                            <li>Công ty TNHH Thanh Đa</li>
+                            <li>Công ty TNHH Thành Công</li>
+                            <li>Công ty TNHH Thanh Danh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <div class="input-search-tag">
+                    <div class="list-select-tag">
+                        <div class="item">
+                            <span>Công ty TNHH Thanh Đa</span>
+                            <a class="delete" href="#">×</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mb10 mr-2">
+                <div class="input-search-tag">
+                    <div class="list-select-tag">
+                        <input type="text" class="form-control" id="" value="ABC">
+                    </div>
+                    <div class="suggest-list">
+                        <div class="suggest-add">
+                            <span>Không tìm thấy dữ liệu khách hàng B2B</span>
+                            <a href="#" class="add blue">
+                                <i class="fa fa-plus"></i> Thêm mới
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-main-head mb10 mr-2">
+                <div class="down-up">
+                    <a class="btn btn-default onclick" href="javascript:;">
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="form-down" style="display: none;">
+                        <label class="check-list mb10 mr25">
+                            <input type="checkbox" checked="">
+                            <span class="checkmark"></span>
+                            Hình thức
+                        </label>
+                        <label class="check-list mb10 mr25">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Mã đơn
+                        </label>
+                        <label class="check-list mb10 mr25">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Ngày bắt đầu
+                        </label>
+                        <label class="check-list mb10 mr25">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Ngày kết thúc
+                        </label>
+                        <label class="check-list mb10 mr25">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Nhãn đơn
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="mb10 mr-2">
+                <button class="btn-search btn-default" type="submit">
+                    <svg class="icon-svg">
+                        <use xlink:href="images/icons/icon.svg#search"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="line-bottom" style="padding-bottom: 0;">
+            <div class="row">
+                <div class="tab-default col-md-9 mb0 mt10">
+                    <a href="#" class="active">Tất cả đơn hàng (55)</a>
+                    <a href="#">Đang tư vấn (15)</a>
+                    <a href="#">Chưa khởi hành (30)</a>
+                    <a href="#">Đã khởi hành (10)</a>
+                </div>
+                <div class="col-md-3 text-right mt10"><button type="submit" class="btn btn-default">Tạo đơn hàng</button></div>
+            </div>
+        </div>
+        <div class="line-bottom mb20">
+            <div class="flex">
+                <div class="mb10 mr-4">Tổng giá trị: <strong>60,000,000</strong></div>
+                <div class="mb10 mr-4">Đã thanh toán: <strong>40,000,000</strong></div>
+                <div class="mb10 mr-4">Chưa thanh toán: <strong>60,000,000</strong></div>
+                <div class="mb10 mr-4">Lợi nhuận: <strong>60,000,000</strong></div>
+            </div>
+        </div>
+
+
+
+        <div class="wrap_bg wrap_bg_no-padding mb20">
+            <div class="table-responsive table-scroll scroll-inner">
+                <table class="table table-nowrap">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã đơn</th>
+                            <th>
+                                Ngày bắt đầu - </br>
+                                Ngày kết thúc
+                            </th>
+                            <th>Khách hàng</th>
+                            <th>Nhãn đơn</th>
+                            <th style="width:110px" class="text-right">Thanh toán</th>
+                            <th>Nguồn</th>
+                            <th style="width:110px" class="text-right">Lợi nhuận</th>
+                            <th style="width:200px">Trạng thái</th>
+                            <th style="width:110px">
+                                Ngày tạo
+                                <a class="sort">&#8595;</a>
+                            </th>
+                            <th>Người tạo</th>
+                            <th style="width:140px">
+                                Ngày cập nhật
+                                <a class="sort">&#8593;</a>
+                            </th>
+                            <th>Người cập nhật</th>
+                            <th>Nhân viên chính</th>
+                            <th>Nhân viên phụ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                <a class="blue" href="#">B000004</a>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <div class="blue">(Chị) Mrs. Tuệ An</div>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-oranger">Khởi tạo</span>
+                                <div>Vé máy bay</div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-blue">Công nợ - Thanh toán thiếu</span>
+                                <div>Vé máy bay: <span class="oranger">Đang xử lý</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <div class="blue" href="#">B000004</div>
+                                <div>[Online B2B]</div>
+                            </td>
+                            <td>
+                                28/11/2022 - 28/11/2022
+                            </td>
+                            <td>
+                                <a class="blue">(Chị) Mrs. Tuệ An</a>
+                                <div>0983632288</div>
+                                <div>tuean@vietpowertravel.com</div>
+                            </td>
+                            <td>Vé máy bay hà nội - sài gon 28/11</td>
+                            <td class="text-right">
+                                <div class="green">0/</div>
+                                <div class="red">10,000,000</div>
+                            </td>
+                            <td>Website</td>
+                            <td class="text-right">0</td>
+                            <td>
+                                <span class="status-green">Thành công</span>
+                                <div>Vé máy bay : <span class="green">Quyết toán</span></div>
+                            </td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td> 17-05-2021</br>13:34</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                            <td>Nguyễn Thái Bình - Phòng kinh doanh 1</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination-flex">
+                <div class="select-number">
+                    Hiển thị &nbsp;
+                    <select class="form-control">
+                    <option>30</option>
+                    <option>30</option>
+                    <option>30</option>
+                    <option>30</option>
+                </select>&nbsp; trong số &nbsp; <strong>55</strong> &nbsp; kết quả lọc
+                </div>
+                <ul id="pagination" class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#">
+                            <i class="fa fa-step-backward"></i>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link icon" href="#">
+                            <i class="fa fa-caret-left"></i>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link icon" href="#">
+                            <i class="fa fa-caret-right"></i>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">
+                            <i class="fa fa-step-forward"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- /build:content -->
+
+<!-- build:script2 -->
+<script>
+    const selectBtn = document.querySelector(".select-btn"),
+        items = document.querySelectorAll(".item");
+
+    selectBtn.addEventListener("click", () => {
+        selectBtn.classList.toggle("open");
+    });
+
+    items.forEach(item => {
+        item.addEventListener("click", () => {
+            item.classList.toggle("checked");
+
+            let checked = document.querySelectorAll(".checked"),
+                btnText = document.querySelector(".btn-text");
+
+            if (checked && checked.length > 0) {
+                btnText.innerText = `${checked.length} Selected`;
+            } else {
+                btnText.innerText = "Tất cả nguồn";
+            }
+        });
+    })
+</script>
+<!-- /build:script2 -->
